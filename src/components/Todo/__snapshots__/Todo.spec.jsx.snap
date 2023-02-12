@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Todo /> only UI testing should match snapshot with data 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="test"
+  >
+    <div
+      class="row"
+    >
+      <input
+        class="input"
+        data-testid="input"
+      />
+      <button
+        class="button button--green"
+        data-testid="add-button"
+      >
+        +
+      </button>
+    </div>
+    <ul
+      class="list-wrapper"
+      data-testid="todo-list"
+    >
+      <li
+        class="list-element"
+      >
+        <span
+          data-testid="todo-test"
+        >
+          test
+        </span>
+        <button
+          class="button button--red"
+          data-id="test"
+          data-testid="remove-button-test"
+        >
+          -
+        </button>
+      </li>
+      <li
+        class="list-element"
+      >
+        <span
+          data-testid="todo-Doman"
+        >
+          Doman Code
+        </span>
+        <button
+          class="button button--red"
+          data-id="Doman"
+          data-testid="remove-button-Doman"
+        >
+          -
+        </button>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Todo /> only UI testing should match snapshot without data 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+    data-testid="test"
+  >
+    <div
+      class="row"
+    >
+      <input
+        class="input"
+        data-testid="input"
+      />
+      <button
+        class="button button--green"
+        data-testid="add-button"
+      >
+        +
+      </button>
+    </div>
+    <ul
+      class="list-wrapper"
+      data-testid="no-results"
+    >
+      Nie ma elementów do wyświetlenia
+    </ul>
+  </div>
+</DocumentFragment>
+`;
